@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Basic javascript</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="icon" href="rees/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="button">
+            <button class="button" onclick="bold()"> <i class="fas fa-bold"></i></button>
+            <button class="button" onclick="italic()"><i class="fas fa-italic"></i></button>
+            <button class="button" onclick="underline()"><i class="fas fa-underline"></i></button>
+        </div>
+
+        <select id="mySelect" onchange="change_style()">
+            <option >Arial</option>
+            <option >courrier</option>
+            <option >franklin </option>
+            <option >Times</option>
+        </select>
+
+
+        <select id="mySelect2" onchange="change_size()">
+            <option>15px</option>
+            <option>20px</option>
+            <option>1em</option>
+            <option>2em</option>
+        </select>
+
+    </header>
+    <BR>
+    <div class="container">
+        <h1 id="titre">Basic Javascript</h1>
+        
+        <p id="text1">We're going to make a program that looks like Microsoft Word.
+
+            There will be one paragrah and a bunch of buttons.
+
+            Each button will have an onclick attribute that will link to a different javascript function.
+
+            These buttons will have unique names and should do the following :
+
+            -one button to make the paragraph bold
+
+            -one button to make the paragraph italic
+
+            -one button to make the paragraph underlined
+
+            -one dropdown list that will have a bunch of fonts, and when you click on one the paragraph’s font will
+            change to it.
+
+            - one dropdown list that will have a bunch of numbers (choose whatever you want) and when you click on it
+            the paragraph’s font size changes to that.
+
+
+
+            All these buttons will be in one line and above the paragraph.
+
+            You are free to make the styling like you want.</p>
+            </div>
+    </div>
+
+
+</body>
+<script src="js/main1.js"></script>
+
+</html>
